@@ -184,18 +184,19 @@
 
             $('.parentanimateImg').click(function () {
                 var url = $(this).attr('data-href');
-                $.ajax({
-                    type: "POST",
-                    url: '/Default.aspx/Visit',
-                    data: '{ "value": "' + $(this).attr('data-type') + '" }',
-                    async: true,
-                    contentType: "application/json; charset=utf-8",
-                    success: function (data) { 
-                        location.href = url;
-                    },
-                    error: function (e) {
-                    }
-                });
+                window.open(url);
+                //$.ajax({
+                //    type: "POST",
+                //    url: '/Default.aspx/Visit',
+                //    data: '{ "value": "' + $(this).attr('data-type') + '" }',
+                //    async: true,
+                //    contentType: "application/json; charset=utf-8",
+                //    success: function (data) { 
+                //        location.href = url;
+                //    },
+                //    error: function (e) {
+                //    }
+                //});
             });
         });
     </script>
