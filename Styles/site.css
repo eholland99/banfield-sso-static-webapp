@@ -111,7 +111,7 @@ top: 16px; right: 7px; font-weight: 600;cursor:pointer;
 .headerbackgroundcolor
 {
     /*background-color:#0C4570;*/
-    background-color:#0000a0;
+    background-color:#ff7f00;
     border-radius: 0px !important;    
 }
 
@@ -226,7 +226,7 @@ float: left;
 .overflowhidden
 {
     overflow:hidden;
-    border:2px groove #0000a0 ;
+    border:2px groove #ff7f00 ;
 
 }
 
@@ -234,7 +234,7 @@ float: left;
 {
     position: absolute;
     /*background-color: #444;*/
-    background-color: #0000a0;
+    background-color: #ff7f00;
     opacity: 0.8;
     filter: alpha(opacity=80);  
     top: 65%;  
